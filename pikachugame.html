@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pikachu Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main id='room'>
+        <img id='soundbutton' src="img/sound/soundoff.png" alt="Sound off button">
+        <audio src="sound/pokemonmusic.wav" type='audio/wav' id='backgroundmusic'></audio>
+        <div class="feedelements">
+            <div id='box1'>
+                <button id='carrot'><img src="img/elements/carrot.png" alt="Carrot"></button>
+            </div>
+            <div id='box2'>
+                <button id='macaron'><img src="img/elements/macaron.png" alt="Macaron"></button>
+            </div>
+            <div id='box3'>
+                <button id='bubbletea'><img src="img/elements/bubbletea.png" alt="Bubble Tea"></button>
+            </div>
+        </div>
+        <div class="petelements">
+            <button id='hand'><img src="img/elements/hand.png" alt="Hand"></button>
+        </div>
+        <div class="bathelements">
+            <button id='sponge'><img src="img/elements/sponge.png" alt="Sponge"></button>
+        </div>
+        <figure id='pikachu1'>
+            <img src="img/pikachu/pikachuhappy1.gif" alt="Happy Face Pikachu" id="pikachuhappy1">
+        </figure>
+        <div id='commands'>
+            <button id='feedbutton'><img src="img/buttons/buttonfeed.png" alt="Feed Button"></button>
+            <button id='petbutton'><img src="img/buttons/buttonpet.png" alt="Pet Button"></button>
+            <button id='bathbutton'><img src="img/buttons/buttonbath.png" alt="Bath Button"></button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
