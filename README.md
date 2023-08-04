@@ -1,2 +1,2 @@
 # pikachu-tamagotchi
-I got the assignment to create a Javascript game, which my final product is a Pikachu tamagotchi game. Hope you enjoy!
+In this charming project, I blended HTML, CSS, and JavaScript to code a captivating Tamagotchi-style game. Players must care for their adorable Pikachu, feeding it what it loves while avoiding overfeeding. Illustrations and animations brought the virtual pet to life, allowing players to pet and wash Pikachu for a heartwarming experience. Join the adventure and forge a special bond with your very own Pikachu companion!
